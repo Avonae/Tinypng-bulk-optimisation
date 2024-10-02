@@ -1,4 +1,4 @@
-# Tinypng bulk optimisation
+# Tinypng bulk optimization
 A powershell script that optimize PNG images through tinypng.com. 
 In order to use it you [need to get API key]([url](https://tinypng.com/developers)).
 ![image](https://github.com/user-attachments/assets/62cd228f-8850-4a44-bcf1-8c83c7f4f4ae)
