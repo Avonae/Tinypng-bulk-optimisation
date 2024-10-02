@@ -5,6 +5,8 @@ In order to use it you [need to get API key]([url](https://tinypng.com/developer
 
 This PowerShell script optimizes PNG images using the Tinify API. It processes all `.png` files in a specified root directory and retains the original folder structure in a designated output directory.
 
+The script will display a progress bar indicating the optimization status.
+
 ## Features
 - Recursively searches for `.png` files in the specified root directory.
 - Optimizes images using the Tinify API.
@@ -12,6 +14,8 @@ This PowerShell script optimizes PNG images using the Tinify API. It processes a
 - Displays a progress bar during the optimization process.
 
 ## Prerequisites
+
+- Ensure that the `images` directory exists and contains `.png` files before running the script.
 - PowerShell installed on your system.
 - Tinify [API key]([url](https://tinypng.com/developers)).
 
@@ -29,10 +33,4 @@ This PowerShell script optimizes PNG images using the Tinify API. It processes a
 `.\your_script_name.ps1`
 
 ## Output
-
 - The optimized images will be saved in the `tiny` directory, maintaining the same folder structure as in the `images` directory.
-
-## Notes
-
-- Ensure that the `images` directory exists and contains `.png` files before running the script.
-- The script will display a progress bar indicating the optimization status.
